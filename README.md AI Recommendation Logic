@@ -1,0 +1,99 @@
+*AI RECOMMENDATION LOGIC*
+Movie Recommendation System
+A handful of code lines spark a tool shaped around film tastes. When someone picks preferred categories, suggestions appear through quiet logic. Built with Python, it listens then offers titles tied to chosen moods. Favorite types guide what shows up next. No buttons scream. It just matches patterns without fuss.
+📌 Features
+- Accepts multiple genres as input.
+- Matches user preferences with movie genres.
+- Calculates a match score for each movie.
+Relevance decides the order of suggestions. What shows up first matches your needs most closely - other options follow behind. Matching strength shapes the list from top to bottom.
+Match ratings show up alongside movie picks you might like. A number tells how close each film fits what you enjoy watching.
+
+How It Works
+
+1. A comma marks each genre someone picks. One after another they fill the line. Favorite styles appear just like that. Separated neatly down the list. Each choice shows what they like.
+2. A match forms when the typed genres line up with a film’s listed types. Each movie gets checked like that.
+3. From time to time, a value shows how many types of stories both sides share. That total becomes the mark used to compare them.
+4. When a film shares even one genre, it might show up in suggestions.
+5. Match score decides the ranking, highest first.
+
+🛠️ Technologies Used
+
+- Python 3
+- Dictionaries
+- Lists
+- Sets
+- Sorting Algorithms
+
+📂 Project Structure
+
+```text
+movie-recommendation-system/
+│
+├── movie_recommender.py
+└── README.md
+```
+
+💻 Code
+
+```python
+movies = {
+"Inception": ["sci-fi", "thriller", "action"],
+"Interstellar": ["sci-fi", "drama", "adventure"],
+"The Dark Knight": ["action", "crime", "thriller"],
+"Avengers: Endgame": ["action", "superhero", "adventure"],
+"Titanic": ["romance", "drama"],
+"The Notebook": ["romance", "drama"],
+"3 Idiots": ["comedy", "drama", "education"],
+"Dangal": ["sports", "drama", "inspirational"],
+"Zindagi Na Milegi Dobara": ["comedy", "adventure", "drama"],
+"The Conjuring": ["horror", "thriller"]
+}
+
+user_input = input("Enter your favorite genres (comma-separated): ").lower()
+preferences = [genre.strip() for genre in user_input.split(",")]
+
+recommendations = []
+
+Each film comes with its own set of categories listed beside it
+Count how many items appear in both preferences and genres by checking overlaps once each
+Should the score be above zero, proceed. Otherwise, stop
+recommendations.append((movie, score))
+
+Sorting recommendations by their second element in descending order
+
+print("\n🎬 Recommended Movies:\n")
+
+if recommendations:
+for movie, score in recommendations:
+print(f"{movie} | Match Score: {score}")
+else:
+print("No matching movies found.")
+```
+
+▶️ Example Usage
+
+Input
+
+```text
+action, thriller
+
+Output
+
+```text
+🎬 Recommended Movies:
+
+Inception Match Score 2
+The Dark Knight 2
+Avengers Endgame Match Score 1
+The Conjuring Match Score 1
+🔮 Future Enhancements
+
+- Add a larger movie database.
+- Use machine learning for personalized recommendations.
+- Build a graphical user interface (GUI).
+Movie details go into a database or live inside a JSON file. Sometimes one, sometimes the other. Data sticks around either way. A place holds it safe. Not on paper, but in structured form. Digital storage handles the job. Files work. Databases too. Depends what fits best.
+Movie ratings show up alongside how popular each film is.
+
+📜 License
+Anyone can access the code because it’s shared freely through the MIT License. The work belongs to everyone, protected by a license that allows reuse without barriers.
+A little appreciation goes a long way - spot this work over at GitHub if it helped you out.
