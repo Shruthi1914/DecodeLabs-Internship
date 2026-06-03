@@ -1,0 +1,54 @@
+# Rule-Based AI Chatbot
+
+## Project Overview
+The Rule-Based AI Chatbot is an intelligent conversational system that responds to user queries using predefined rules and pattern matching techniques. The project demonstrates the fundamentals of Artificial Intelligence and Natural Language Processing through a simple yet effective chatbot application.
+
+## Objectives
+- Develop a chatbot capable of interacting with users.
+- Implement rule-based logic for generating responses.
+- Understand the basics of conversational AI.
+- Improve problem-solving and Python programming skills.
+
+## Features
+- Interactive user conversations
+- Rule-based response generation
+- Pattern matching for user input
+- Easy-to-modify response rules
+- Beginner-friendly implementation
+
+## Technologies Used
+- Python
+- Rule-Based Logic
+- Natural Language Processing (Basic Concepts)
+
+## Installation
+
+1. Clone the repository:
+   git clone https://github.com/Shruthi1914/Decodelabs-Internship.git
+
+2. Navigate to the project directory:
+   cd Decodelabs-Internship
+
+3. Run the chatbot:
+   python chatbot.py
+
+## Usage
+Run the application and enter your queries through the console. The chatbot will provide responses based on predefined rules and patterns.
+
+## Learning Outcomes
+- Understanding chatbot architecture
+- Implementing rule-based AI systems
+- Working with user input and string processing
+- Developing conversational applications using Python
+
+## Future Enhancements
+- Add more conversational patterns
+- Improve response accuracy
+- Integrate machine learning capabilities
+- Develop a graphical user interface (GUI)
+
+## Internship
+This project was developed as part of the DecodeLabs Internship Program.
+
+## License
+This project is intended for educational and learning purposes only.
