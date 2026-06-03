@@ -1,7 +1,6 @@
+*DATA CLASSIFICATION USING AI*
 Iris Flower Classification with Decision Tree
-
 A single machine learning effort takes measurements of iris blooms, sorting them by type through pattern recognition. One step at a time, it leans on decision trees - structures built to split data wisely. Physical traits like petal width guide each choice inside the model. Instead of guessing, logic paths emerge from real examples. Each flower lands in a group because earlier cases pointed the way.
-
 📌 Project Overview
 
 This project walks through building a Decision Tree Classifier with the well-known Iris data from Scikit-learn. Flower dimensions serve as input so the system can identify which type of Iris it is. Instead of complex steps, it relies on clear patterns in petal and sepal sizes. Prediction happens after learning from labeled examples already stored inside the library.
@@ -104,17 +103,6 @@ iris-decision-tree/
 ├── README.md
 └── requirements.txt
 ```
-
-🎯 Learning Objectives
-
-- Understand supervised machine learning.
-- Learn how to use the Iris dataset.
-A decision tree gets trained first. After that, its performance is checked. One step follows another without rushing ahead. Evaluation happens only when training finishes completely. The process moves forward in clear stages.
-- Work with Scikit-learn for classification tasks.
-
-🤝 Contributing
-
-Got something to add? Head over, grab the code, then send it back with your changes. A new version grows when someone else steps in.
 
 📄 License
 
